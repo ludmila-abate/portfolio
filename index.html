@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Lumi Abate</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<!-- Karla Extra bold 800 Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+
+<!-- Karla Bold 700 Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
+
+<!-- Karla Semi Bold 600 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@600&display=swap" rel="stylesheet">
+
+<!-- Karla Medium 500 Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet">
+
+<!-- Karla Regular 400 Font -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+
+<!-- Karla Light 300 Font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+
+<!-- Karla Extra Light 200 -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+
+<!-- Quote Mark Icon -->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<!-- Page -->
+
+<body>
+  <head><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"></head>
+<nav id ="hamburgernav" role="navigation">
+  <div id="menuToggle">
+    <input type="checkbox" />
+    <span></span>
+    <span></span>
+    <span></span>
+    <ul id="menu">
+      <a data-en href="#homepage"><li>HOME</li></a>
+      <a data-es href="#homepage"><li>INICIO</li></a>
+      <a data-en href="#portfolio"><li>PORTFOLIO</li></a>
+      <a data-es href="#portfolio"><li>PORTFOLIO</li></a>
+      <a data-en href="#about"><li>ABOUT</li></a>
+      <a data-es href="#about"><li>SOBRE MI</li></a>
+      <a data-en href="#contact"><li>CONTACT</li></a>
+      <a data-es href="#contact"><li>CONTACTO</li></a>
+      <a><button data-en id="en"></button> 
+    <button data-es id="es"></button></a>
+      <!-- LinkedIn Icon -->
+        <div class="icons-row">
+      <a href="https://www.linkedin.com/in/ludmilaabate/"class="socialmedia-icon anav-icons hamburger-icons" target="_blank"><?xml version="1.0"?><svg fill="#232323" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="16px" height="16px">    <path d="M9,25H4V10h5V25z M6.501,8C5.118,8,4,6.879,4,5.499S5.12,3,6.501,3C7.879,3,9,4.121,9,5.499C9,6.879,7.879,8,6.501,8z M27,25h-4.807v-7.3c0-1.741-0.033-3.98-2.499-3.98c-2.503,0-2.888,1.896-2.888,3.854V25H12V9.989h4.614v2.051h0.065 c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z"/></svg></a>
+      <!-- Instagram Icon -->
+      <a href="https://www.instagram.com/lumiabate/" class="socialmedia-icon anav-icons" target="_blank"><?xml version="1.0"?><svg fill="#232323" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="16px" height="16px">    <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"/></svg></a>
+      <!-- Email Icon -->
+      <a href="mailto:ludmilaabate@gmail.com" class="socialmedia-icon anav" target="_blank"><?xml version="1.0" encoding="iso-8859-1"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px"
+	 viewBox="0 0 330.001 330.001" style="enable-background:new 0 0 330.001 330.001;" xml:space="preserve">
+<g id="XMLID_348_">
+	<path id="XMLID_350_" d="M173.871,177.097c-2.641,1.936-5.756,2.903-8.87,2.903c-3.116,0-6.23-0.967-8.871-2.903L30,84.602
+		L0.001,62.603L0,275.001c0.001,8.284,6.716,15,15,15L315.001,290c8.285,0,15-6.716,15-14.999V62.602l-30.001,22L173.871,177.097z"
+		/>
+	<polygon id="XMLID_351_" points="165.001,146.4 310.087,40.001 19.911,40 	"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+</a>
+  </div>
+    </ul>
+</nav>
+  <!-- END HAMBURGER MENU -->
+    
+          <!-- Nav Bar -->
+    <nav class="nav" id="nav">
+          <!-- Language button -->
+    <button data-en id="en"></button> 
+    <button data-es id="es"></button>
+      
+      <a data-en class="home anav" href="#homepage">HOME</a>
+      <a data-es class="home anav"href="#homepage">INICIO</a>
+      
+      <a data-en class="portfolio anav" href="#portfolio">PORTFOLIO</a>
+      <a data-es class="portfolio anav" href="#portfolio">PORTFOLIO</a>
+       
+      <a data-en class="about anav" href="#about">ABOUT</a>
+      <a data-es class="about anav" href="#about">SOBRE MI</a>
+      
+      <a data-en class="contact anav" href="#contact">CONTACT</a>
+      <a data-es class="contact anav" href="#contact">CONTACTO</a>
+      <a class="anav nav-divider">|</a>
+      <!-- LinkedIn Icon -->
+      <a href="https://www.linkedin.com/in/ludmilaabate/"class="socialmedia-icon anav-icons" target="_blank"><?xml version="1.0"?><svg fill="#CDA6DD" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="16px" height="16px">    <path d="M9,25H4V10h5V25z M6.501,8C5.118,8,4,6.879,4,5.499S5.12,3,6.501,3C7.879,3,9,4.121,9,5.499C9,6.879,7.879,8,6.501,8z M27,25h-4.807v-7.3c0-1.741-0.033-3.98-2.499-3.98c-2.503,0-2.888,1.896-2.888,3.854V25H12V9.989h4.614v2.051h0.065 c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z"/></svg></a>
+      <!-- Instagram Icon -->
+      <a href="https://www.instagram.com/lumiabate/" class="socialmedia-icon anav-icons" target="_blank"><?xml version="1.0"?><svg fill="#CDA6DD" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="16px" height="16px">    <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"/></svg></a>
+      <!-- Email Icon -->
+      <a href="mailto:ludmilaabate@gmail.com" class="socialmedia-icon anav" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#CDA6DD" class="bi bi-envelope-fill" viewBox="0 0 16 16"> <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/> </svg>
+</a>
+      
+    </nav>
+
+          <!-- Homepage section -->
+  <section class="homepage" id="homepage">
+    <div class="homepage-grid">
+      <div class="photo">
+    <img class="portrait" src="https://drive.google.com/uc?id=1h2sIG0BYn24-WACUqL97f1Nmuhr1F5vi">
+      </div>
+      <div class="name-job">
+    <p data-en class="name"><span class="name-underline">Ludmila <span class="bold">Abate</span></span><br><br><span class="bold job-position">AUDIOVISUALS</span></p>
+        <p data-es class="name"><span class="name-underline">Ludmila <span class="bold">Abate</span></span><br><br><span class="bold job-position">AUDIOVISUALES</span></p>
+      </div>
+    </div>
+  </section>
+  
+          <!-- Portfolio's section -->
+    <section data-en class="portfolio-section" id="portfolio">
+      <!-- english -->
+        <div class="portfolio">
+          
+          <!-- Fluid Indumento -->
+          <div class="card-container">
+            <a class="card card1" id="reconquista" href="https://ludmila-abate.github.io/fluid-en/" target="_blank">
+              <span class="info" id="reconquistainfo"><strong>Fluid Indumento</strong></span>
+              <div class="layer reconquista" id="reconquista-layer">
+                <img
+        class="image"
+        src="https://drive.google.com/uc?id=1oIBgqwq-tLM-JCOUkPB_kFeWB9u6C0CV" 
+        alt="Reconquista's Poster"
+                     />
+              </div>
+            </a>
+          </div>
+          
+          <!-- Lupe -->
+          <div class="card-container">
+            <a class="card card2" id="russa" href="https://ludmila-abate.github.io/lupe-en/" target="_blank">
+              <span class="info" id="russainfo"><strong>Lupe</strong></span>
+               <div class ="layer" id="russa-layer">
+                <img class="image" src="https://drive.google.com/uc?id=1gf8OXo7EYC-cHPp63REmZgowiVe0L4Xc" alt="Russa Poster"/>
+              </div>
+            </a>
+          </div>
+          
+          <!-- Papeles -->
+          <div class="card-container">
+            <a class="card card3" id="cakesbar" href="https://ludmila-abate.github.io/papeles-en/" target="_blank">
+              <span class="info" id="cakesbarinfo"><strong>Papeles</strong></span>
+              <div class="layer" id="cakesbar-layer">
+                <img
+        class="image"
+        src="https://drive.google.com/uc?id=1hDDgLY6agnjuTcM4g7ef-oztcryyLR37" 
+        alt="Cake's Bar Logo"
+      />
+              </div>
+            </a>
+          </div>
+          
+          <!-- Sobreviento y Mas que uno -->
+          <div class="card-container">
+            <a class="card card4" id="tailored" href="https://ludmila-abate.github.io/santana-en/" target="_blank">
+              <span class="info" id="tailoredinfo"><strong>Sobreviento y Mas que uno</strong></span>
+              <div class="layer" id="tailored-layer">
+                <img
+        class="image"
+        src="https://drive.google.com/uc?id=19Ki2p3ZnMwyHowRN9SN63I-jgjED0PHp" 
+        alt="Tailored Image"
+      />
+              </div>
+            </a>
+          </div>
+          
+          <!-- Fungi -->
+          <div class="card-container">
+            <a class="card card5" id="valeska" href="https://ludmila-abate.github.io/fungi-en/" target="_blank">
+              <span class="info" id="valeskainfo"><strong>Fungi</strong></span>
+              <div class="layer" id="valeska-layer">
+                <img
+        class="image"
+        src="https://drive.google.com/uc?id=1zMQo79-OP8nRC-WtCY9KBcN6HysPmQeX" 
+        alt="Tailored Image"
+      />
+              </div>
+            </a>
+          </div>
+               
+               
+            <!-- Mariu Serrano -->
+          <div class="card-container">
+            <a class="card card6" id="calculator" href="https://ludmila-abate.github.io/mariuserrano-en/" target="_blank">
+              <span class="info" id="claculatorinfo"><strong>Mariu Serrano</strong></span>
+              <div class="layer" id="calculator-layer">
+                <img
+        class="image"
+        src="https://drive.google.com/uc?id=18xfQIbHFi7AOKhdirrunSO2V3NEnqGvO" 
+        alt="Calculator Image"
+      />
+              </div>
+            </a>
+          </div>
+          <!-- Camo Fusion -->
+          <div class="card-container">
+            <a class="card card7" id="calculator" href="https://ludmila-abate.github.io/camofusion-en/" target="_blank">
+              <span class="info" id="weahterappinfo"><strong>Camo Fusión</strong></span>
+              <div class="layer" id="weatherapp-layer">
+                <img
+        class="image"
+        src="https://drive.google.com/uc?id=1ERMrzQrerPlpStuDh2pI97u05Jx__yvV" 
+        alt="Calculator Image"
+      />
+              </div>
+            </a>
+          </div>
+          <!-- Cubb -->
+          <div class="card-container">
+            <a class="card card8" id="quotemachine" href="https://ludmila-abate.github.io/cubb-en/" target="_blank">
+              <span class="info" id="quotemachineinfo"><strong>Cubb</strong></span>
+              <div class="layer" id="quotemachine-layer">
+                <img
+        class="image"
+        src="https://drive.google.com/uc?id=1af1oe36HvYK9WT6DU0tIM8CK3zsTecxf" 
+        alt="Quote machine Image"
+      />
+              </div>
+            </a>
+          </div>
+            
+        </div>
+    </section>
+  
+  
+  
+  <section data-es class="portfolio-section" id="portfolio">
+      <!-- spanish -->
+        <div class="portfolio">
+          
+          <!-- Fluid Indumento -->
+          <div class="card-container">
+            <a class="card card1" id="reconquista" href="https://ludmila-abate.github.io/fluid-es/" target="_blank">
+              <span class="info" id="reconquistainfo"><strong>Fluid Indumento</strong></span>
+              <div class="layer reconquista" id="reconquista-layer">
+                <img
+        class="image"
+        src="https://drive.google.com/uc?id=1oIBgqwq-tLM-JCOUkPB_kFeWB9u6C0CV" 
+        alt="Reconquista's Poster"
+                     />
+              </div>
+            </a>
+          </div>
+          
+          <!-- Lupe -->
+          <div class="card-container">
+            <a class="card card2" id="russa" href="https://ludmila-abate.github.io/lupe-es/" target="_blank">
+              <span class="info" id="russainfo"><strong>Lupe</strong></span>
+               <div class ="layer" id="russa-layer">
+                <img class="image" src="https://drive.google.com/uc?id=1gf8OXo7EYC-cHPp63REmZgowiVe0L4Xc" alt="Russa Poster"/>
+              </div>
+            </a>
+          </div>
+          
+          <!-- Papeles -->
+          <div class="card-container">
+            <a class="card card3" id="cakesbar" href="https://ludmila-abate.github.io/santana-es/" target="_blank">
+              <span class="info" id="cakesbarinfo"><strong>Papeles</strong></span>
+              <div class="layer" id="cakesbar-layer">
+                <img
+        class="image"
+        src="https://drive.google.com/uc?id=1hDDgLY6agnjuTcM4g7ef-oztcryyLR37" 
+        alt="Cake's Bar Logo"
+      />
+              </div>
+            </a>
+          </div>
+          
+          <!-- Santana -->
+          <div class="card-container">
+            <a class="card card4" id="tailored" href="https://ludmila-abate.github.io/santana-es/" target="_blank">
+              <span class="info" id="tailoredinfo"><strong>Sobreviento y Mas que Uno</strong></span>
+              <div class="layer" id="tailored-layer">
+                <img
+        class="image"
+        src="https://drive.google.com/uc?id=19Ki2p3ZnMwyHowRN9SN63I-jgjED0PHp" 
+        alt="Tailored Image"
+      />
+              </div>
+            </a>
+          </div>
+          
+          <!-- Fungi -->
+          <div class="card-container">
+            <a class="card card5" id="valeska" href="https://ludmila-abate.github.io/fungi-es/" target="_blank">
+              <span class="info" id="valeskainfo"><strong>Fungi</strong></span>
+              <div class="layer" id="valeska-layer">
+                <img
+        class="image"
+        src="https://drive.google.com/uc?id=1zMQo79-OP8nRC-WtCY9KBcN6HysPmQeX" 
+        alt="Tailored Image"
+      />
+              </div>
+            </a>
+          </div>
+               
+               
+            <!-- Mariu Serrano -->
+          <div class="card-container">
+            <a class="card card6" id="calculator" href="https://ludmila-abate.github.io/mariuserrano-es/" target="_blank">
+              <span class="info" id="claculatorinfo"><strong>Mariu Serrano</strong></span>
+              <div class="layer" id="calculator-layer">
+                <img
+        class="image"
+        src="https://drive.google.com/uc?id=18xfQIbHFi7AOKhdirrunSO2V3NEnqGvO" 
+        alt="Calculator Image"
+      />
+              </div>
+            </a>
+          </div>
+          <!-- Camo Fusión -->
+          <div class="card-container">
+            <a class="card card7" id="calculator" href="https://ludmila-abate.github.io/camofusion-es/" target="_blank">
+              <span class="info" id="weahterappinfo"><strong>Camo Fusión</strong></span>
+              <div class="layer" id="weatherapp-layer">
+                <img
+        class="image"
+        src="https://drive.google.com/uc?id=1ERMrzQrerPlpStuDh2pI97u05Jx__yvV" 
+        alt="Calculator Image"
+      />
+              </div>
+            </a>
+          </div>
+          
+          <!-- Cubb -->
+          <div class="card-container">
+            <a class="card card8" id="quotemachine" href="https://carlaincola.github.io/cubb-es/" target="_blank">
+              <span class="info" id="quotemachineinfo"><strong>Cubb</strong></span>
+              <div class="layer" id="quotemachine-layer">
+                <img
+        class="image"
+        src="https://drive.google.com/uc?id=1af1oe36HvYK9WT6DU0tIM8CK3zsTecxf" 
+        alt="Quote machine Image"
+      />
+              </div>
+            </a>
+          </div>
+            
+        </div>
+    </section>
+  
+  <!-- About Section -->
+  <section id="about">
+    <div class="about-grid mobile-margins">
+      <div data-en class="about-title">
+      <h1>ABOUT ME</h1>
+        <hr id="underline"></hr>
+    </div>
+    <div data-es class="about-title">
+      <h1>SOBRE MI</h1>
+        <hr id="underline"></hr>
+    </div>
+      <h1 data-en class="quote"><i class="fas fa-solid fa-camera"></i><br>LUDMILA ABATE<br>AUDIOVISUALES</span></h1>
+<h1 data-es class="quote"><i class="fas fa-solid fa-camera"></i><br>LUDMILA ABATE<br>AUDIOVISUALES</span></h1>
+      <p data-es class="presentation"><span class="headline">Fotógrafa, Directora de Fotografía y estudiante en Artes Audiovisuales. </span><br><br> 
+Mi carrera y el haber formado parte de muchos proyectos y equipos me dió la posibilidad de desarrollarme y aprender el funcionamiento de varios roles dentro de la Industria Audiovisual, entre ellos Producción y Dirección, pero mi pasión la encontré en la Dirección de Fotografía.<br><br>Tengo un perfil altamente multifacético, con amplia experiencia realizando producciones de variados estilos y géneros como cortometrajes de ficción, videoclips, y cobertura de eventos culturales y corporativos. Así como también cumpliendo con diferentes roles como por ejemplo Asistente de Producción, Asistente de Cámara o Camarógrafa.<br><br>Paralelamente a mi carrera me dedico a realizar mis propias producciones fotográficas y audiovisuales para seguir generando experiencia estando siempre actualizada y así volcar todo ese conocimiento en mis próximos trabajos y proyectos.<br><br>
+        Actualmente formo parte de <strong>Lava</strong>, una Productora Audiovisual de la cual soy Co-Fundadora, Productora Ejecutiva y Directora de Fotografía. Mi recorrido profesional y laboral me enseñó que el trabajo en equipo es fundamental, cada persona dentro de un equipo tiene algo valioso para aportar y cada rol en una producción es importante para que el resultado sea brillante.<br><br>
+</p>
+
+    <p data-en class="presentation"><span class="headline">
+Photographer, Director of Photography and an Audiovisual Arts student.</span><br><br>My career and having been part of many projects and teams gave me the opportunity to develop myself and learn the functioning of various roles within the Audiovisual Industry, including Production and Direction, but I found my passion in the Direction of Photography.<br><br>I have a highly multifaceted profile, with extensive experience making productions of various styles and genres such as fiction short films, video clips, and coverage of cultural and corporate events. As well as fulfilling different roles such as Production Assistant, Camera Assistant or Cameraman.<br><br>Parallel to my career, I dedicate myself to making my own photographic and audiovisual productions to continue generating experience, always being updated and thus turning all that knowledge in my next works and projects.<br><br>
+        I am currently part of <strong>Lava</strong>, an Audiovisual Production Company of which I am Co-Founder, Executive Producer and Director of Photography. My professional and work journey taught me that teamwork is fundamental, each person within a team has something valuable to contribute and each role in a production is important for the result to be brilliant.<br><br>
+</p>
+  <div data-en class="myresume"><a href="https://drive.google.com/file/d/1BVw1jlUzVDYJars5bxR6j12kEs6w3R_J/view?usp=sharing" target="_blank" class="resumebutton"><i class="fa-solid fa-circle-arrow-down"></i>MY RESUME</a></div>
+<div data-es class="myresume"><a href="https://drive.google.com/file/d/1sXc9eNEXrswEsXLd8pALnGJ2DGOcEgBP/view?usp=sharing" target="_blank" class="resumebutton"><i class="fa-solid fa-circle-arrow-down"></i>MI CURRICULUM</a></div>
+    </div>
+  </section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <div data-en class="about-title">
+      <h1>CONTACT</h1>
+        <hr id="underline"></hr>
+    </div>
+    <div data-es class="about-title">
+      <h1>CONTACTO</h1>
+        <hr id="underline"></hr>
+    </div>
+  <div data-en class="contact-container mobile-margins">
+    <?xml version='1.0' encoding='iso-8859-1'?>
+<svg class="contact-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 470" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 470 470">
+  <g>
+    <path d="m470,310.715v-151.539c0-3.32-2.184-6.246-5.366-7.19l-70.113-20.802c5.427-13.275 8.81-26.451 8.81-38.684 0-51.004-41.495-92.5-92.5-92.5s-92.5,41.495-92.5,92.5c0,12.233 3.383,25.409 8.81,38.684l-67.979,20.169-149.529-44.368c-2.268-0.671-4.722-0.235-6.619,1.18s-3.014,3.644-3.014,6.011v151.728c0,0.018 0,0.037 0,0.055v151.541c0,3.32 2.183,6.246 5.367,7.19l151.549,44.967c0.044,0.013 0.113,0.033 0.113,0.033 0.024,0.007 0.049,0.009 0.073,0.016 0.279,0.08 0.565,0.141 0.857,0.188 0.078,0.013 0.156,0.026 0.235,0.036 0.314,0.041 0.632,0.068 0.956,0.069 0.348,0 0.667-0.028 0.982-0.069 0.078-0.01 0.155-0.023 0.233-0.036 0.292-0.047 0.579-0.109 0.859-0.188 0.024-0.007 0.049-0.009 0.073-0.016l.069-.021c0.044-0.013 146.427-43.445 146.427-43.445 0.93,0.413 1.956,0.647 3.039,0.647s2.11-0.234 3.039-0.647l146.496,43.465c0.701,0.208 1.419,0.31 2.134,0.31 1.598,0 3.175-0.511 4.486-1.49 1.896-1.416 3.014-3.644 3.014-6.01v-151.724c-0.001-0.02-0.001-0.04-0.001-0.06zm-15-145.941v136.016l-136.669-40.55v-21.332c9.78-10.071 48.188-50.995 69.876-93.951l66.793,19.817zm-144.169-149.774c42.733,0 77.5,34.766 77.5,77.5 0,12.181-4.075,25.748-10.412,39.485-0.314,0.502-0.572,1.047-0.765,1.633-18.072,38.149-53.029,77.25-66.325,91.396-13.288-14.131-48.213-53.178-66.292-91.314-0.203-0.642-0.486-1.237-0.833-1.78-6.314-13.712-10.373-27.254-10.373-39.421-8.52651e-14-42.733 34.767-77.499 77.5-77.499zm-7.5,223.907v21.332l-136.669,40.55v-136.015l66.793-19.817c21.689,42.956 60.096,83.88 69.876,93.95zm-288.331,36.979l51.818,15.375c0.712,0.211 1.43,0.312 2.136,0.312 3.235,0 6.22-2.109 7.187-5.369 1.179-3.971-1.085-8.145-5.057-9.323l-56.084-16.641v-136.016l136.662,40.55v136.016l-51.817-15.375c-3.97-1.18-8.145,1.085-9.323,5.057-1.179,3.971 1.085,8.145 5.057,9.323l56.084,16.641v136.016l-136.663-40.55v-136.016zm303.331,136.016v-54.297c0-4.142-3.357-7.5-7.5-7.5s-7.5,3.358-7.5,7.5v54.297l-136.669,40.549v-136.015l136.669-40.55v51.719c0,4.142 3.357,7.5 7.5,7.5s7.5-3.358 7.5-7.5v-51.719l136.669,40.55v136.016l-136.669-40.55z"/>
+    <path d="m310.831,145c28.948,0 52.5-23.551 52.5-52.5 0-28.948-23.552-52.5-52.5-52.5s-52.5,23.551-52.5,52.5c0,28.948 23.552,52.5 52.5,52.5zm0-90c20.678,0 37.5,16.822 37.5,37.5 0,20.678-16.822,37.5-37.5,37.5s-37.5-16.822-37.5-37.5c0-20.678 16.822-37.5 37.5-37.5z"/>
+  </g>
+</svg>
+    <p><span class="subtitle">Address</span><br>Buenos Aires 1706, Argentina</p>
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg class="contact-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M495.598,210.289l-59.792-52.858V61.915c0-5.189-4.206-9.395-9.395-9.395H322.126l-49.03-45.312
+			c-10.412-9.612-26.722-9.611-37.137,0.004L186.933,52.52H82.647c-5.189,0-9.395,4.206-9.395,9.395v95.648l-57.017,52.874
+			c-1.918,1.778-3.006,4.274-3.006,6.89v285.278c0,5.189,4.206,9.395,9.395,9.395h466.752c5.189,0,9.395-4.206,9.395-9.395V217.327
+			C498.771,214.635,497.616,212.071,495.598,210.289z M435.806,182.509l39.066,34.536l-39.066,31.927V182.509z M248.71,21.014
+			c3.317-3.063,8.322-3.064,11.637-0.003l34.094,31.509h-79.821L248.71,21.014z M92.045,71.31h324.971v193.019l-115.727,94.577
+			l-20.604-18.923c-14.08-12.906-35.313-12.895-49.396,0.033l-21.918,20.138L92.045,262.865V71.31z M73.255,183.189v64.093
+			l-36.489-30.257L73.255,183.189z M32.019,493.21V237.499l163.387,135.485l-13.473,12.378L64.51,493.21H32.019z M92.288,493.21
+			l102.358-94.01l49.352-45.344c6.84-6.278,17.153-6.287,23.983-0.026L419.741,493.21H92.288z M479.98,493.21L479.98,493.21H447.52
+			L315.269,371.748L479.98,237.138V493.21z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M385.439,123.405h-48.476c-5.189,0-9.395,4.207-9.395,9.395s4.206,9.395,9.395,9.395h48.476
+			c5.189,0,9.395-4.206,9.395-9.395S390.627,123.405,385.439,123.405z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M284.081,123.405H123.611c-5.189,0-9.395,4.207-9.395,9.395s4.206,9.395,9.395,9.395h160.469
+			c5.189,0,9.395-4.206,9.395-9.395S289.269,123.405,284.081,123.405z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M385.44,165.668H255.433c-5.189,0-9.395,4.206-9.395,9.395s4.206,9.395,9.395,9.395h130.006
+			c5.189,0,9.395-4.206,9.395-9.395S390.629,165.668,385.44,165.668z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M206.957,165.668h-83.346c-5.189,0-9.395,4.206-9.395,9.395s4.206,9.395,9.395,9.395h83.346
+			c5.189,0,9.395-4.206,9.395-9.395S212.146,165.668,206.957,165.668z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M385.44,211.177h-48.476c-5.189,0-9.395,4.206-9.395,9.395s4.206,9.395,9.395,9.395h48.476
+			c5.189,0,9.395-4.207,9.395-9.395S390.629,211.177,385.44,211.177z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M284.081,211.177H123.611c-5.189,0-9.395,4.206-9.395,9.395s4.206,9.395,9.395,9.395h160.469
+			c5.189,0,9.395-4.207,9.395-9.395S289.269,211.177,284.081,211.177z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M385.44,253.441H255.433c-5.189,0-9.395,4.206-9.395,9.395s4.206,9.395,9.395,9.395h130.006
+			c5.189,0,9.395-4.206,9.395-9.395S390.629,253.441,385.44,253.441z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M206.957,253.441h-83.346c-5.189,0-9.395,4.206-9.395,9.395s4.206,9.395,9.395,9.395h83.346
+			c5.189,0,9.395-4.206,9.395-9.395S212.146,253.441,206.957,253.441z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+    <p><span class="subtitle">Email me</span><br> <a class="emailme" href="mailto:ludmilaabate@gmail.com
+
+" target="_blank">ludmilaabate@gmail.com</a></p>
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg class="contact-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 88.695 88.695" style="enable-background:new 0 0 88.695 88.695;" xml:space="preserve">
+<g>
+	<path d="M84.351,68.07c2.508-4.59,3.829-9.759,3.829-15.006c0-13.118-8.112-24.36-19.575-29.021
+		C62.65,12.338,50.493,4.295,36.486,4.295c-19.862,0-36.021,16.159-36.021,36.021c0,6.072,1.541,12.057,4.462,17.36L0,76.059
+		l18.011-4.824c5.403,3.236,11.549,4.975,17.862,5.082c5.558,5.019,12.913,8.083,20.973,8.083c5.64,0,11.142-1.512,15.971-4.379
+		l15.878,4.254L84.351,68.07z M18.655,66.921L5.657,70.402l3.561-13.285l-0.419-0.72c-2.835-4.873-4.334-10.434-4.334-16.082
+		c0-17.656,14.365-32.021,32.021-32.021s32.021,14.364,32.021,32.021S54.142,72.337,36.486,72.337
+		c-6.066,0-11.976-1.711-17.091-4.948L18.655,66.921z M83.037,78.618l-10.861-2.91l-0.74,0.468C67.07,78.94,62.025,80.4,56.847,80.4
+		c-5.511,0-10.633-1.656-14.93-4.473c17.294-2.626,30.59-17.595,30.59-35.611c0-3.712-0.565-7.294-1.612-10.667
+		c7.947,4.786,13.286,13.48,13.286,23.415c0,4.823-1.28,9.57-3.701,13.728l-0.419,0.72L83.037,78.618z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+    <p><span class="subtitle">Chat</span><br>+54 11 40921605</p>
+  </div>
+
+<div data-es class="contact-container mobile-margins">
+    <?xml version='1.0' encoding='iso-8859-1'?>
+<svg class="contact-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 470" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 470 470">
+  <g>
+    <path d="m470,310.715v-151.539c0-3.32-2.184-6.246-5.366-7.19l-70.113-20.802c5.427-13.275 8.81-26.451 8.81-38.684 0-51.004-41.495-92.5-92.5-92.5s-92.5,41.495-92.5,92.5c0,12.233 3.383,25.409 8.81,38.684l-67.979,20.169-149.529-44.368c-2.268-0.671-4.722-0.235-6.619,1.18s-3.014,3.644-3.014,6.011v151.728c0,0.018 0,0.037 0,0.055v151.541c0,3.32 2.183,6.246 5.367,7.19l151.549,44.967c0.044,0.013 0.113,0.033 0.113,0.033 0.024,0.007 0.049,0.009 0.073,0.016 0.279,0.08 0.565,0.141 0.857,0.188 0.078,0.013 0.156,0.026 0.235,0.036 0.314,0.041 0.632,0.068 0.956,0.069 0.348,0 0.667-0.028 0.982-0.069 0.078-0.01 0.155-0.023 0.233-0.036 0.292-0.047 0.579-0.109 0.859-0.188 0.024-0.007 0.049-0.009 0.073-0.016l.069-.021c0.044-0.013 146.427-43.445 146.427-43.445 0.93,0.413 1.956,0.647 3.039,0.647s2.11-0.234 3.039-0.647l146.496,43.465c0.701,0.208 1.419,0.31 2.134,0.31 1.598,0 3.175-0.511 4.486-1.49 1.896-1.416 3.014-3.644 3.014-6.01v-151.724c-0.001-0.02-0.001-0.04-0.001-0.06zm-15-145.941v136.016l-136.669-40.55v-21.332c9.78-10.071 48.188-50.995 69.876-93.951l66.793,19.817zm-144.169-149.774c42.733,0 77.5,34.766 77.5,77.5 0,12.181-4.075,25.748-10.412,39.485-0.314,0.502-0.572,1.047-0.765,1.633-18.072,38.149-53.029,77.25-66.325,91.396-13.288-14.131-48.213-53.178-66.292-91.314-0.203-0.642-0.486-1.237-0.833-1.78-6.314-13.712-10.373-27.254-10.373-39.421-8.52651e-14-42.733 34.767-77.499 77.5-77.499zm-7.5,223.907v21.332l-136.669,40.55v-136.015l66.793-19.817c21.689,42.956 60.096,83.88 69.876,93.95zm-288.331,36.979l51.818,15.375c0.712,0.211 1.43,0.312 2.136,0.312 3.235,0 6.22-2.109 7.187-5.369 1.179-3.971-1.085-8.145-5.057-9.323l-56.084-16.641v-136.016l136.662,40.55v136.016l-51.817-15.375c-3.97-1.18-8.145,1.085-9.323,5.057-1.179,3.971 1.085,8.145 5.057,9.323l56.084,16.641v136.016l-136.663-40.55v-136.016zm303.331,136.016v-54.297c0-4.142-3.357-7.5-7.5-7.5s-7.5,3.358-7.5,7.5v54.297l-136.669,40.549v-136.015l136.669-40.55v51.719c0,4.142 3.357,7.5 7.5,7.5s7.5-3.358 7.5-7.5v-51.719l136.669,40.55v136.016l-136.669-40.55z"/>
+    <path d="m310.831,145c28.948,0 52.5-23.551 52.5-52.5 0-28.948-23.552-52.5-52.5-52.5s-52.5,23.551-52.5,52.5c0,28.948 23.552,52.5 52.5,52.5zm0-90c20.678,0 37.5,16.822 37.5,37.5 0,20.678-16.822,37.5-37.5,37.5s-37.5-16.822-37.5-37.5c0-20.678 16.822-37.5 37.5-37.5z"/>
+  </g>
+</svg>
+    <p><span class="subtitle">Dirección</span><br>Buenos Aires 1706, Argentina</p>
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg class="contact-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M495.598,210.289l-59.792-52.858V61.915c0-5.189-4.206-9.395-9.395-9.395H322.126l-49.03-45.312
+			c-10.412-9.612-26.722-9.611-37.137,0.004L186.933,52.52H82.647c-5.189,0-9.395,4.206-9.395,9.395v95.648l-57.017,52.874
+			c-1.918,1.778-3.006,4.274-3.006,6.89v285.278c0,5.189,4.206,9.395,9.395,9.395h466.752c5.189,0,9.395-4.206,9.395-9.395V217.327
+			C498.771,214.635,497.616,212.071,495.598,210.289z M435.806,182.509l39.066,34.536l-39.066,31.927V182.509z M248.71,21.014
+			c3.317-3.063,8.322-3.064,11.637-0.003l34.094,31.509h-79.821L248.71,21.014z M92.045,71.31h324.971v193.019l-115.727,94.577
+			l-20.604-18.923c-14.08-12.906-35.313-12.895-49.396,0.033l-21.918,20.138L92.045,262.865V71.31z M73.255,183.189v64.093
+			l-36.489-30.257L73.255,183.189z M32.019,493.21V237.499l163.387,135.485l-13.473,12.378L64.51,493.21H32.019z M92.288,493.21
+			l102.358-94.01l49.352-45.344c6.84-6.278,17.153-6.287,23.983-0.026L419.741,493.21H92.288z M479.98,493.21L479.98,493.21H447.52
+			L315.269,371.748L479.98,237.138V493.21z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M385.439,123.405h-48.476c-5.189,0-9.395,4.207-9.395,9.395s4.206,9.395,9.395,9.395h48.476
+			c5.189,0,9.395-4.206,9.395-9.395S390.627,123.405,385.439,123.405z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M284.081,123.405H123.611c-5.189,0-9.395,4.207-9.395,9.395s4.206,9.395,9.395,9.395h160.469
+			c5.189,0,9.395-4.206,9.395-9.395S289.269,123.405,284.081,123.405z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M385.44,165.668H255.433c-5.189,0-9.395,4.206-9.395,9.395s4.206,9.395,9.395,9.395h130.006
+			c5.189,0,9.395-4.206,9.395-9.395S390.629,165.668,385.44,165.668z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M206.957,165.668h-83.346c-5.189,0-9.395,4.206-9.395,9.395s4.206,9.395,9.395,9.395h83.346
+			c5.189,0,9.395-4.206,9.395-9.395S212.146,165.668,206.957,165.668z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M385.44,211.177h-48.476c-5.189,0-9.395,4.206-9.395,9.395s4.206,9.395,9.395,9.395h48.476
+			c5.189,0,9.395-4.207,9.395-9.395S390.629,211.177,385.44,211.177z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M284.081,211.177H123.611c-5.189,0-9.395,4.206-9.395,9.395s4.206,9.395,9.395,9.395h160.469
+			c5.189,0,9.395-4.207,9.395-9.395S289.269,211.177,284.081,211.177z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M385.44,253.441H255.433c-5.189,0-9.395,4.206-9.395,9.395s4.206,9.395,9.395,9.395h130.006
+			c5.189,0,9.395-4.206,9.395-9.395S390.629,253.441,385.44,253.441z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M206.957,253.441h-83.346c-5.189,0-9.395,4.206-9.395,9.395s4.206,9.395,9.395,9.395h83.346
+			c5.189,0,9.395-4.206,9.395-9.395S212.146,253.441,206.957,253.441z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+    <p><span class="subtitle">Contactame por Email</span><br> <a class="emailme" href="mailto:ludmilaabate@gmail.com" target="_blank">ludmilaabate@gmail.com</a></p>
+    <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg class="contact-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 88.695 88.695" style="enable-background:new 0 0 88.695 88.695;" xml:space="preserve">
+<g>
+	<path d="M84.351,68.07c2.508-4.59,3.829-9.759,3.829-15.006c0-13.118-8.112-24.36-19.575-29.021
+		C62.65,12.338,50.493,4.295,36.486,4.295c-19.862,0-36.021,16.159-36.021,36.021c0,6.072,1.541,12.057,4.462,17.36L0,76.059
+		l18.011-4.824c5.403,3.236,11.549,4.975,17.862,5.082c5.558,5.019,12.913,8.083,20.973,8.083c5.64,0,11.142-1.512,15.971-4.379
+		l15.878,4.254L84.351,68.07z M18.655,66.921L5.657,70.402l3.561-13.285l-0.419-0.72c-2.835-4.873-4.334-10.434-4.334-16.082
+		c0-17.656,14.365-32.021,32.021-32.021s32.021,14.364,32.021,32.021S54.142,72.337,36.486,72.337
+		c-6.066,0-11.976-1.711-17.091-4.948L18.655,66.921z M83.037,78.618l-10.861-2.91l-0.74,0.468C67.07,78.94,62.025,80.4,56.847,80.4
+		c-5.511,0-10.633-1.656-14.93-4.473c17.294-2.626,30.59-17.595,30.59-35.611c0-3.712-0.565-7.294-1.612-10.667
+		c7.947,4.786,13.286,13.48,13.286,23.415c0,4.823-1.28,9.57-3.701,13.728l-0.419,0.72L83.037,78.618z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+    <p><span class="subtitle">Celular</span><br>+54 11 40921605</p>
+  </div>
+  <p><a href=""</p>
+</section>
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
