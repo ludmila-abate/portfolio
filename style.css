@@ -658,13 +658,13 @@ grid-template-rows: repeat(6, 1fr);
     padding-right: 50px;
   }
   .author {
-    font-size: 22px !important;
+    font-size: 40px !important;
   }
   .headline {
-    font-size: 25px !important;
+    font-size: 30px !important;
   }
   .presentation {
-    font-size: 18px !important;
+    font-size: 24px !important;
     line-height: 25px;
   }
   .about-title {
@@ -672,7 +672,7 @@ grid-template-rows: repeat(6, 1fr);
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 16px !important;
+  font-size: 30px !important;
   font-weight: 400;
   line-height: 0px;
   padding-bottom: 10px;
