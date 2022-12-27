@@ -662,10 +662,11 @@ grid-template-rows: repeat(6, 1fr);
   }
   .headline {
     font-size: 33px !important;
+    line-height: 48px !important;
   }
   .presentation {
     font-size: 30px !important;
-    line-height: 25px;
+    line-height: 45px !important;
   }
   .about-title {
   width: 100%;
