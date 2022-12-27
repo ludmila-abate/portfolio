@@ -255,6 +255,17 @@ text-align: right;
   background-image: url("https://drive.google.com/uc?id=1YfFCzVk2bOeq2nTxN94fDVStJRPz3qGw");
   background-position: center;
 }
+
+/* Reel Section */
+.reel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
 /* About Section */
 
 #about {
