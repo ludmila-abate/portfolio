@@ -553,8 +553,8 @@ grid-template-rows: repeat(6, 1fr);
     height: 100%;
   }
   .mobile-margins {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
   .author {
     font-size: 22px;
