@@ -702,6 +702,9 @@ grid-template-rows: repeat(6, 1fr);
   font-weight: 600;
   font-size: 35px !important;
 }
+  .contact-container {
+    font-size: 40px !important
+  }
 }
 
 
