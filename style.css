@@ -596,7 +596,7 @@ background-image: url("https://drive.google.com/uc?id=1LhO7SfYQOZTpVlikVd-hA7meU
 background-size: 100%;
 }
   .homepage-grid {
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
