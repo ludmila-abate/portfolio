@@ -552,8 +552,8 @@ grid-template-rows: repeat(6, 1fr);
     height: 100%;
   }
   .mobile-margins {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
   }
   .author {
     font-size: 22px;
@@ -663,7 +663,7 @@ grid-template-rows: repeat(6, 1fr);
     font-size: 25px !important;
   }
   .presentation {
-    font-size: 14px !important;
+    font-size: 18px !important;
     line-height: 25px;
   }
   .about-title {
