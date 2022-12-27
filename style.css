@@ -567,7 +567,7 @@ grid-template-rows: repeat(6, 1fr);
   }
 }
 
-@media (max-width: 999px) {
+@media (max-width: 981px) {
   #hamburgernav {
     visibility: visible;
   }
@@ -596,7 +596,7 @@ background-image: url("https://drive.google.com/uc?id=1LhO7SfYQOZTpVlikVd-hA7meU
 background-size: 100%;
 }
   .homepage-grid {
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: center;
