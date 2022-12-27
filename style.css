@@ -661,10 +661,10 @@ grid-template-rows: repeat(6, 1fr);
     font-size: 40px !important;
   }
   .headline {
-    font-size: 30px !important;
+    font-size: 33px !important;
   }
   .presentation {
-    font-size: 24px !important;
+    font-size: 30px !important;
     line-height: 25px;
   }
   .about-title {
@@ -678,7 +678,7 @@ grid-template-rows: repeat(6, 1fr);
   padding-bottom: 10px;
 }
   .quote {
-    font-size: 24px !important;
+    font-size: 50px !important;
     padding-bottom: 20px;
   }
   .author {
