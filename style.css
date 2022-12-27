@@ -601,6 +601,8 @@ background-size: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
   .name-job {
     width: 95%;
